@@ -20,35 +20,76 @@ ul {
 
 
 .profile {
-  border-radius: 10px;
-  border: 3px solid rgb(196, 190, 190);
-  width: 350px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  width: 350px;
+  border: 3px solid rgb(175, 174, 174);
+  border-radius: 10px;
   margin: 0 auto;
 }
 
 .description {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar {
-  width: 250px;
-  box-shadow: 0 0 3px 0px #0000004d;
+  width: 300px;
   border-radius: 50%;
-  background-color: #e7eeeeed;
+  background-color: #8b8d8a;
   padding: 20px 10px 0px 10px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  font-weight: 500;
+  font-size: 20px;
+  color: #524a4d;
+  margin-bottom: 15px;
+}
+
+.location {
+  font-weight: 700;
+  font-size: 20px;
+  color: #524a4d;
+  margin-bottom: 15px;
 }
 
 .stats {
-  margin: initial;
-  padding-bottom: 5px;
-  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats>li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  min-width: 80px;
+}
+
+.label {
+  margin-right: 3px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 20px;
+  color: #524a4d8b;
+}
+
+.quantity {
+  font-weight: 800;
+  font-size: 20px;
+  color: #524a4d;
 }
